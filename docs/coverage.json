@@ -1,0 +1,71 @@
+{
+  "coverage": "0%",
+  "expectCount": 16,
+  "actualCount": 0,
+  "files": {
+    "src/index.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/runtime/asset-manager.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/runtime/audio-manager.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/runtime/canvas-renderer.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/runtime/gl-renderer.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/runtime/input-manager.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        2,
+        6,
+        10,
+        14
+      ]
+    },
+    "src/runtime/runtime.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        7,
+        22,
+        26
+      ]
+    },
+    "src/runtime/utils.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        1,
+        10,
+        17,
+        29
+      ]
+    }
+  }
+}

@@ -1,0 +1,1081 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "\nimport runtime from './runtime/runtime'\n\nconst zettai = {\n  VERSION: '1.0.0',\n  LICENSE: 'MIT License (c) 2019, Rambling Indie Games, LLC',\n\n  createRuntime (options) {\n    return runtime.create(options)\n  }\n}\n\nexport default zettai\n",
+    "static": true,
+    "longname": "/Users/rmarks/code/zettai/lib/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "zettai",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~zettai",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/index.js",
+    "importStyle": "zettai",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"VERSION\": string, \"LICENSE\": string, \"createRuntime\": function}"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/runtime/asset-manager.js",
+    "content": "const assetManager = {\n  create () {\n    const assetCollection = {\n      images: {},\n      atlases: {},\n      sounds: {},\n      music: {},\n      data: {}\n    }\n\n    const assets = {\n      load (manifest, onLoadComplete) {\n        const keysToLoad = Object.keys(manifest)\n        const toLoad = keysToLoad.length\n\n        if (!toLoad) {\n          return onLoadComplete()\n        }\n\n        let loaded = 0\n\n        const onAssetLoaded = (category, key, asset) => {\n          assetCollection[category][key] = asset\n          loaded += 1\n          if (loaded >= toLoad) {\n            return onLoadComplete()\n          }\n        }\n\n        const loaders = {\n          image (key, src) {\n            const imageAsset = new Image()\n            imageAsset.onload = () => {\n              onAssetLoaded('images', key, imageAsset)\n            }\n            imageAsset.onerror = err => {\n              throw new Error(err)\n            }\n            imageAsset.src = src\n          },\n\n          atlas (key, src) {\n            const atlasAsset = new Image()\n            atlasAsset.onload = () => {\n              onAssetLoaded('atlases', key, atlasAsset)\n            }\n            atlasAsset.onerror = err => {\n              throw new Error(err)\n            }\n            atlasAsset.src = src\n          }\n\n          // TODO: implement the other asset types\n          // sound (key, src) {\n\n          // },\n\n          // music (key, src) {\n\n          // },\n\n          // data (key, src) {\n\n          // }\n        }\n\n        const failedToLoad = (src, type) => {\n          throw new Error(`Unable to load ${src} Unknown asset type: ${type}`)\n        }\n\n        keysToLoad.forEach(key => {\n          const { src, type } = manifest[key]\n          const loader = loaders[type]\n          loader && loader(key, src)\n          !loader && failedToLoad(src, type)\n        })\n      }\n    }\n\n    return [ assets, assetCollection ]\n  }\n}\n\nexport default assetManager\n",
+    "static": true,
+    "longname": "/Users/rmarks/code/zettai/lib/src/runtime/asset-manager.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "assetManager",
+    "memberof": "src/runtime/asset-manager.js",
+    "static": true,
+    "longname": "src/runtime/asset-manager.js~assetManager",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/asset-manager.js",
+    "importStyle": "assetManager",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"create\": function}"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/runtime/audio-manager.js",
+    "content": "const unimplemented = {\n  create (runtimeOptions) {\n    if (!runtimeOptions.useAudio) {\n      return undefined\n    }\n\n    const audio = {\n      error: 'Sorry, the Audio Manager is not yet implemented! set useAudio runtime option to false!'\n    }\n\n    return audio\n  }\n}\n\nexport default unimplemented\n",
+    "static": true,
+    "longname": "/Users/rmarks/code/zettai/lib/src/runtime/audio-manager.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "unimplemented",
+    "memberof": "src/runtime/audio-manager.js",
+    "static": true,
+    "longname": "src/runtime/audio-manager.js~unimplemented",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/audio-manager.js",
+    "importStyle": "unimplemented",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"create\": function}"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/runtime/canvas-renderer.js",
+    "content": "import { parseColor } from './utils'\n\nconst canvasRenderer = {\n  create (runtimeOptions) {\n    const rootElement = document.querySelector(runtimeOptions.root) || document.body\n    const canvas = document.createElement('canvas')\n\n    canvas.classList.add('zettai__renderer-canvas')\n    canvas.width = runtimeOptions.width\n    canvas.height = runtimeOptions.height\n\n    const ctx = canvas.getContext('2d')\n    rootElement.appendChild(canvas)\n\n    const renderer = {\n      _backgroundColor: 'cornflowerblue',\n\n      get ctx () {\n        return ctx\n      },\n\n      get backgroundColor () {\n        return renderer._backgroundColor\n      },\n\n      set backgroundColor (color) {\n        renderer._backgroundColor = parseColor(color)\n      },\n\n      get renderables () {\n        return renderer._entities || []\n      },\n\n      set renderables (r) {\n        renderer._entities = r || []\n      },\n\n      // clears the frame to background color\n      preFrame () {\n        ctx.fillStyle = renderer._backgroundColor\n        ctx.fillRect(0, 0, canvas.width, canvas.height)\n      },\n\n      // renders all renderables\n      update () {\n        renderer.renderables.length > 0 && renderer.renderables.forEach(entity => {\n          entity && typeof entity.draw === 'function' && entity.draw(ctx, canvas, renderer)\n        })\n      },\n\n      // applies post-processing effects\n      postFrame () {\n\n      }\n    }\n\n    return renderer\n  }\n}\n\nexport default canvasRenderer\n",
+    "static": true,
+    "longname": "/Users/rmarks/code/zettai/lib/src/runtime/canvas-renderer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "canvasRenderer",
+    "memberof": "src/runtime/canvas-renderer.js",
+    "static": true,
+    "longname": "src/runtime/canvas-renderer.js~canvasRenderer",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/canvas-renderer.js",
+    "importStyle": "canvasRenderer",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"create\": function}"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "src/runtime/gl-renderer.js",
+    "content": "const unimplemented = {\n  create (runtimeOptions) {\n    const renderer = {\n      error: 'Sorry, the WebGL Renderer is not yet implemented! set useCanvas runtime option to true!'\n    }\n\n    return renderer\n  }\n}\n\nexport default unimplemented\n",
+    "static": true,
+    "longname": "/Users/rmarks/code/zettai/lib/src/runtime/gl-renderer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "unimplemented",
+    "memberof": "src/runtime/gl-renderer.js",
+    "static": true,
+    "longname": "src/runtime/gl-renderer.js~unimplemented",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/gl-renderer.js",
+    "importStyle": "unimplemented",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"create\": function}"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "name": "src/runtime/input-manager.js",
+    "content": "\nconst enableKeyboard = inputDevice => {\n\n}\n\nconst enableMouse = (inputDevice, canvas) => {\n\n}\n\nconst enableTouch = (inputDevice, canvas) => {\n\n}\n\nconst inputManager = {\n  create (runtimeOptions) {\n    const input = {}\n\n    // keyboard support?\n    runtimeOptions.useKeyboard && enableKeyboard(input)\n\n    // mouse and touch require the canvas element\n    // so input has to be invoked after the renderer\n    // the renderers will be given a classname of zettai__renderer-canvas\n    // and will be a child of the runtime options root element\n    const selector = `.zettai__renderer-canvas`\n    const canvas = document.querySelector(selector)\n\n    // mouse support?\n    runtimeOptions.useMouse && enableMouse(input, canvas)\n\n    // touch support?\n    runtimeOptions.useTouch && enableTouch(input, canvas)\n\n    return input\n  }\n}\n\nexport default inputManager\n",
+    "static": true,
+    "longname": "/Users/rmarks/code/zettai/lib/src/runtime/input-manager.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "enableKeyboard",
+    "memberof": "src/runtime/input-manager.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/runtime/input-manager.js~enableKeyboard",
+    "access": "public",
+    "export": false,
+    "importPath": "lib/src/runtime/input-manager.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "params": [
+      {
+        "name": "inputDevice",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "enableMouse",
+    "memberof": "src/runtime/input-manager.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/runtime/input-manager.js~enableMouse",
+    "access": "public",
+    "export": false,
+    "importPath": "lib/src/runtime/input-manager.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "inputDevice",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "canvas",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "enableTouch",
+    "memberof": "src/runtime/input-manager.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/runtime/input-manager.js~enableTouch",
+    "access": "public",
+    "export": false,
+    "importPath": "lib/src/runtime/input-manager.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "inputDevice",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "canvas",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "inputManager",
+    "memberof": "src/runtime/input-manager.js",
+    "static": true,
+    "longname": "src/runtime/input-manager.js~inputManager",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/input-manager.js",
+    "importStyle": "inputManager",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"create\": function}"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "src/runtime/runtime.js",
+    "content": "import assetManager from './asset-manager'\nimport inputManager from './input-manager'\nimport audioManager from './audio-manager'\nimport canvasRenderer from './canvas-renderer'\nimport glRenderer from './gl-renderer'\n\nexport const defaultOptions = {\n  title: 'Untitled Zettai Project',\n  root: 'div#game',\n  width: 640,\n  height: 480,\n  scale: 'match-aspect-fill-height',\n  manifest: {},\n  useCanvas: true,\n  useAudio: false,\n  useMouse: false,\n  useKeyboard: false,\n  useTouch: false,\n  debug: false\n}\n\nexport const validateOptions = options => {\n  // TODO: implement option argument type validators\n}\n\nexport const runtime = {\n  create (options) {\n    validateOptions(options)\n\n    const runtimeOptions = { ...defaultOptions, ...options }\n\n    const [ assets, assetCollection ] = assetManager.create()\n\n    const audio = audioManager.create(runtimeOptions)\n    const renderer = runtimeOptions.useCanvas\n      ? canvasRenderer.create(runtimeOptions)\n      : glRenderer.create(runtimeOptions)\n\n    const input = inputManager.create(runtimeOptions)\n\n    const entities = []\n    const addedEntities = []\n    const removedEntities = []\n    const addEntity = entity => { addedEntities.push(entity) }\n    const clearAddedList = () => { addedEntities.length = 0 }\n    const removeEntity = entity => { removedEntities.push(entity) }\n    const clearRemovedList = () => { removedEntities.length = 0 }\n    const ySortEntities = (a, b) => b.y - a.y\n\n    const entityManager = {\n      get updatables () {\n        return entityManager._entities || []\n      },\n\n      set updatables (r) {\n        entityManager._entities = r || []\n      },\n\n      addEntity,\n\n      removeEntity,\n\n      update (deltaTime) {\n        entityManager.updatables.length > 0 && entityManager.updatables.forEach(entity => {\n          entity && typeof entity.update === 'function' && entity.update(deltaTime)\n        })\n      }\n    }\n\n    let lastTime = Date.now() * 0.001\n    let deltaTime = 0\n\n    const mainLoop = () => {\n      const currentTime = Date.now() * 0.001\n      deltaTime = currentTime - lastTime\n      lastTime = currentTime\n\n      const updatables = []\n      const renderables = []\n\n      // make one pass through the entities to send them to the right system\n      entities.length > 0 && entities.forEach(entity => {\n        entity && entity.updatable && updatables.push(entity)\n        entity && entity.renderable && renderables.push(entity)\n      })\n\n      // pass all updatable entities to the entity manager\n      entityManager.updatables = updatables\n\n      entityManager.update(deltaTime)\n\n      // y sort the renderable entities\n      renderables.sort(ySortEntities)\n\n      // pass all renderable entities to the renderer\n      renderer.renderables = renderables\n\n      // clears the frame to background color\n      renderer.preFrame && renderer.preFrame()\n\n      // renders all renderables\n      renderer.update && renderer.update()\n\n      // applies post-processing effects\n      renderer.postFrame && renderer.postFrame()\n\n      // add entities\n      addedEntities.length > 0 && addedEntities.forEach(entity => {\n        entities.push(entity)\n      })\n\n      addedEntities.length > 0 && clearAddedList()\n\n      // remove entities\n      removedEntities.length > 0 && removedEntities.forEach(entity => {\n        const start = entities.indexOf(entity)\n        const deleteCount = 1\n        entities.splice(start, deleteCount)\n      })\n\n      removedEntities.length > 0 && clearRemovedList()\n\n      window.requestAnimationFrame(mainLoop)\n    }\n\n    const game = {\n      get width () {\n        return runtimeOptions.width\n      },\n\n      get height () {\n        return runtimeOptions.height\n      },\n\n      start () {\n        mainLoop()\n      }\n    }\n\n    const rt = {\n      ready (fn) {\n        document.addEventListener('DOMContentLoaded', () => {\n          assets.load(runtimeOptions.manifest, () => {\n            fn && typeof fn === 'function' && fn({\n              game,\n              assets: assetCollection,\n              input,\n              audio,\n              renderer\n            })\n          })\n        })\n      }\n    }\n\n    document.title = runtimeOptions.title\n\n    return rt\n  }\n}\n\nexport default runtime\n",
+    "static": true,
+    "longname": "/Users/rmarks/code/zettai/lib/src/runtime/runtime.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "variable",
+    "name": "defaultOptions",
+    "memberof": "src/runtime/runtime.js",
+    "static": true,
+    "longname": "src/runtime/runtime.js~defaultOptions",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/runtime.js",
+    "importStyle": "{defaultOptions}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"title\": string, \"root\": string, \"width\": number, \"height\": number, \"scale\": string, \"manifest\": *, \"useCanvas\": boolean, \"useAudio\": *, \"useMouse\": *, \"useKeyboard\": *, \"useTouch\": *, \"debug\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "function",
+    "name": "validateOptions",
+    "memberof": "src/runtime/runtime.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/runtime/runtime.js~validateOptions",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/runtime.js",
+    "importStyle": "{validateOptions}",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "params": [
+      {
+        "name": "options",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 66,
+    "kind": "variable",
+    "name": "runtime",
+    "memberof": "src/runtime/runtime.js",
+    "static": true,
+    "longname": "src/runtime/runtime.js~runtime",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/runtime.js",
+    "importStyle": "{runtime}",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"create\": function}"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "src/runtime/utils.js",
+    "content": "export const clamp = (x, low, high) => {\n  if (x < low) {\n    return low\n  } else if (x > high) {\n    return high\n  }\n  return x\n}\n\nexport const hexByte = n => {\n  const nString = n.toString(16)\n  return nString.length < 2\n    ? `0${nString}`\n    : nString.substr(0, 2)\n}\n\nexport const parseRGBAFromObject = color => {\n  const { r, g, b, a } = color\n\n  const rgba = [r, g, b, a]\n    .map(x => x === undefined ? 0 : clamp(x, 0, 255))\n    .map(x => `${hexByte(x)}`)\n\n  const hexColor = `#${rgba.join('')}`\n\n  return hexColor\n}\n\nexport const parseColor = color => {\n  if (typeof color === 'string') {\n    return color\n  } else if (typeof color === 'object') {\n    return parseRGBAFromObject(color)\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/rmarks/code/zettai/lib/src/runtime/utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "clamp",
+    "memberof": "src/runtime/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/runtime/utils.js~clamp",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/utils.js",
+    "importStyle": "{clamp}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "x",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "low",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "high",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "hexByte",
+    "memberof": "src/runtime/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/runtime/utils.js~hexByte",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/utils.js",
+    "importStyle": "{hexByte}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "function",
+    "name": "parseRGBAFromObject",
+    "memberof": "src/runtime/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/runtime/utils.js~parseRGBAFromObject",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/utils.js",
+    "importStyle": "{parseRGBAFromObject}",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "params": [
+      {
+        "name": "color",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "parseColor",
+    "memberof": "src/runtime/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/runtime/utils.js~parseColor",
+    "access": "public",
+    "export": true,
+    "importPath": "lib/src/runtime/utils.js",
+    "importStyle": "{parseColor}",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "params": [
+      {
+        "name": "color",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# README\n\nZettai is a powerful, *tiny* HTML5 game-oriented framework designed for rapid development of HTML5 games.\n\n_This software is in alpha development. Use at your own risk._\n\n## LICENSE\nMIT License\n\nSee LICENSE.md for details\n",
+    "longname": "/Users/rmarks/code/zettai/lib/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"lib\",\n  \"version\": \"1.0.0\",\n  \"main\": \"dist/zettai-lib.js\",\n  \"license\": \"MIT\",\n  \"author\": \"Richard Marks <ccpsceo@gmail.com>\",\n  \"devDependencies\": {\n    \"clean-webpack-plugin\": \"^3.0.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^5.16.0\",\n    \"eslint-config-standard\": \"^12.0.0\",\n    \"eslint-plugin-import\": \"^2.17.3\",\n    \"eslint-plugin-node\": \"^9.1.0\",\n    \"eslint-plugin-promise\": \"^4.1.1\",\n    \"eslint-plugin-standard\": \"^4.0.0\",\n    \"webpack\": \"^4.33.0\",\n    \"webpack-cli\": \"^3.3.2\",\n    \"webpack-dev-server\": \"^3.5.1\",\n    \"webpack-merge\": \"^4.2.1\"\n  },\n  \"scripts\": {\n    \"start\": \"webpack-dev-server --open --config webpack.dev.js\",\n    \"build\": \"webpack --config webpack.prod.js\",\n    \"docs\": \"esdoc\",\n    \"postdocs\": \"open ./docs/index.html\"\n  }\n}\n",
+    "longname": "/Users/rmarks/code/zettai/lib/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

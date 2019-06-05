@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/runtime/runtime.js | lib</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-zettai">zettai</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#runtime">runtime</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-validateOptions">validateOptions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-clamp">clamp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hexByte">hexByte</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseColor">parseColor</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseRGBAFromObject">parseRGBAFromObject</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-assetManager">assetManager</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-unimplemented">unimplemented</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-canvasRenderer">canvasRenderer</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-unimplemented">unimplemented</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-inputManager">inputManager</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-defaultOptions">defaultOptions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-runtime">runtime</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/runtime/runtime.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import assetManager from &apos;./asset-manager&apos;
+import inputManager from &apos;./input-manager&apos;
+import audioManager from &apos;./audio-manager&apos;
+import canvasRenderer from &apos;./canvas-renderer&apos;
+import glRenderer from &apos;./gl-renderer&apos;
+
+export const defaultOptions = {
+  title: &apos;Untitled Zettai Project&apos;,
+  root: &apos;div#game&apos;,
+  width: 640,
+  height: 480,
+  scale: &apos;match-aspect-fill-height&apos;,
+  manifest: {},
+  useCanvas: true,
+  useAudio: false,
+  useMouse: false,
+  useKeyboard: false,
+  useTouch: false,
+  debug: false
+}
+
+export const validateOptions = options =&gt; {
+  // TODO: implement option argument type validators
+}
+
+export const runtime = {
+  create (options) {
+    validateOptions(options)
+
+    const runtimeOptions = { ...defaultOptions, ...options }
+
+    const [ assets, assetCollection ] = assetManager.create()
+
+    const audio = audioManager.create(runtimeOptions)
+    const renderer = runtimeOptions.useCanvas
+      ? canvasRenderer.create(runtimeOptions)
+      : glRenderer.create(runtimeOptions)
+
+    const input = inputManager.create(runtimeOptions)
+
+    const entities = []
+    const addedEntities = []
+    const removedEntities = []
+    const addEntity = entity =&gt; { addedEntities.push(entity) }
+    const clearAddedList = () =&gt; { addedEntities.length = 0 }
+    const removeEntity = entity =&gt; { removedEntities.push(entity) }
+    const clearRemovedList = () =&gt; { removedEntities.length = 0 }
+    const ySortEntities = (a, b) =&gt; b.y - a.y
+
+    const entityManager = {
+      get updatables () {
+        return entityManager._entities || []
+      },
+
+      set updatables (r) {
+        entityManager._entities = r || []
+      },
+
+      addEntity,
+
+      removeEntity,
+
+      update (deltaTime) {
+        entityManager.updatables.length &gt; 0 &amp;&amp; entityManager.updatables.forEach(entity =&gt; {
+          entity &amp;&amp; typeof entity.update === &apos;function&apos; &amp;&amp; entity.update(deltaTime)
+        })
+      }
+    }
+
+    let lastTime = Date.now() * 0.001
+    let deltaTime = 0
+
+    const mainLoop = () =&gt; {
+      const currentTime = Date.now() * 0.001
+      deltaTime = currentTime - lastTime
+      lastTime = currentTime
+
+      const updatables = []
+      const renderables = []
+
+      // make one pass through the entities to send them to the right system
+      entities.length &gt; 0 &amp;&amp; entities.forEach(entity =&gt; {
+        entity &amp;&amp; entity.updatable &amp;&amp; updatables.push(entity)
+        entity &amp;&amp; entity.renderable &amp;&amp; renderables.push(entity)
+      })
+
+      // pass all updatable entities to the entity manager
+      entityManager.updatables = updatables
+
+      entityManager.update(deltaTime)
+
+      // y sort the renderable entities
+      renderables.sort(ySortEntities)
+
+      // pass all renderable entities to the renderer
+      renderer.renderables = renderables
+
+      // clears the frame to background color
+      renderer.preFrame &amp;&amp; renderer.preFrame()
+
+      // renders all renderables
+      renderer.update &amp;&amp; renderer.update()
+
+      // applies post-processing effects
+      renderer.postFrame &amp;&amp; renderer.postFrame()
+
+      // add entities
+      addedEntities.length &gt; 0 &amp;&amp; addedEntities.forEach(entity =&gt; {
+        entities.push(entity)
+      })
+
+      addedEntities.length &gt; 0 &amp;&amp; clearAddedList()
+
+      // remove entities
+      removedEntities.length &gt; 0 &amp;&amp; removedEntities.forEach(entity =&gt; {
+        const start = entities.indexOf(entity)
+        const deleteCount = 1
+        entities.splice(start, deleteCount)
+      })
+
+      removedEntities.length &gt; 0 &amp;&amp; clearRemovedList()
+
+      window.requestAnimationFrame(mainLoop)
+    }
+
+    const game = {
+      get width () {
+        return runtimeOptions.width
+      },
+
+      get height () {
+        return runtimeOptions.height
+      },
+
+      start () {
+        mainLoop()
+      }
+    }
+
+    const rt = {
+      ready (fn) {
+        document.addEventListener(&apos;DOMContentLoaded&apos;, () =&gt; {
+          assets.load(runtimeOptions.manifest, () =&gt; {
+            fn &amp;&amp; typeof fn === &apos;function&apos; &amp;&amp; fn({
+              game,
+              assets: assetCollection,
+              input,
+              audio,
+              renderer
+            })
+          })
+        })
+      }
+    }
+
+    document.title = runtimeOptions.title
+
+    return rt
+  }
+}
+
+export default runtime
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
